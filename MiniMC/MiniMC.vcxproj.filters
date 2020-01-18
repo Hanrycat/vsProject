@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\shaders">
+      <UniqueIdentifier>{81086389-54f3-4c84-a35e-adf9b54f3d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{648f6efe-3df5-4385-b7b8-fe0379c0e053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\basic_objs">
+      <UniqueIdentifier>{a893b505-a116-499a-a70c-3da8051bb048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\basic_objs">
+      <UniqueIdentifier>{eae0c59d-4b15-417c-9efc-ebd4333b1d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{ba00bcbc-d44c-48d6-8138-1f5dfdce2a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Physics">
+      <UniqueIdentifier>{83758945-7bd7-431e-adc3-ecbd7d9d1c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Physics">
+      <UniqueIdentifier>{b0d5601f-f6b8-444f-8cba-127cd9ce6ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameLogic">
+      <UniqueIdentifier>{742a89a0-de2e-43ba-a49e-f2974483a876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameLogic">
+      <UniqueIdentifier>{89c68bef-221b-481b-b263-ab27e80fa960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataType">
+      <UniqueIdentifier>{6b586f98-904f-4633-94eb-00c22e27c841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataType">
+      <UniqueIdentifier>{b5206d91-d611-4f35-87ea-c5addf371f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Menu">
+      <UniqueIdentifier>{9593d0bc-75fa-448b-9da5-986439c275e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Menu">
+      <UniqueIdentifier>{50577b36-3c21-4aad-ae9a-eae2d907c50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NurbsObjects">
+      <UniqueIdentifier>{12bd1117-7095-44cf-9508-6513c15a90f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NurbsObjects">
+      <UniqueIdentifier>{356b61ba-28ba-4037-a760-eecff20dae69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MiniMC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demoBlock.cpp">
+      <Filter>源文件\basic_objs</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsFunction.cpp">
+      <Filter>源文件\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicWorld.cpp">
+      <Filter>源文件\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>源文件\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="CubicRoom.cpp">
+      <Filter>源文件\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariable.cpp">
+      <Filter>源文件\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadedTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>源文件\basic_objs</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardHandler.cpp">
+      <Filter>源文件\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseHandler.cpp">
+      <Filter>源文件\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>源文件\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="bowl.cpp">
+      <Filter>源文件\NurbsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="knots_control.cpp">
+      <Filter>源文件\NurbsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="spoon.cpp">
+      <Filter>源文件\NurbsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>源文件\NurbsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="pan.cpp">
+      <Filter>源文件\NurbsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="textfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="demoBlock.h">
+      <Filter>头文件\basic_objs</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsFunction.h">
+      <Filter>头文件\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>头文件\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>头文件\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicWorld.h">
+      <Filter>头文件\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>头文件\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="CubicRoom.h">
+      <Filter>头文件\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVariable.h">
+      <Filter>头文件\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>头文件\basic_objs</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockConst.h">
+      <Filter>头文件\basic_objs</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadedTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardHandler.h">
+      <Filter>头文件\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseHandler.h">
+      <Filter>头文件\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>头文件\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="obj.h">
+      <Filter>头文件\NurbsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="textfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\demoFrag.glsl">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\demoVertex.glsl">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\planeFrag.glsl">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\planeVert.glsl">
+      <Filter>源文件\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
